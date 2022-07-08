@@ -20,6 +20,7 @@ h1 {
   font-size: 40px;
   line-height: 1.2;
   margin-bottom: 8px;
+  color: rgb(89, 89, 243);
 }
 
 p {
@@ -101,15 +102,15 @@ nav {
 }
 
 .nav-items ul li a {
-  color: black;
+  color: rgb(89, 89, 243);
 }
 
 .nav-items ul li a:hover {
-  color: rgb(91, 91, 204);
+  color: rgb(153, 153, 197);
 }
 
 button:hover {
-  background-color: rgb(91, 91, 204);
+  background-color: rgb(153, 153, 197);
 }
 
 section {
@@ -142,6 +143,8 @@ section {
 
 .hero-writeup p {
   margin-bottom: 10px;
+  width: 80%;
+  line-height: 1.5;
 }
 
 .button {
@@ -201,6 +204,10 @@ button {
   .hero-writeup {
     width: 100%;
     height: 60%;
+  }
+  .hero-writeup p {
+    line-height: 1.2;
+    width: 85%;
   }
 }
 
