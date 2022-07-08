@@ -47,13 +47,14 @@ nav {
 
 .logo-icon {
   display: flex;
+  align-items: center;
   /* border: 2px solid blueviolet; */
   width: 100%;
   justify-content: space-between;
   height: 56px;
 }
 
-.logo-icon .logo {
+.logo-icon .logo a {
   display: flex;
   align-items: center;
   font-family: "Architects Daughter", cursive;
