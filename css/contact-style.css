@@ -187,7 +187,7 @@ form {
   }
 }
 
-@media (min-width: 655px) {
+@media (min-width: 651px) {
   .hamburger {
     display: none;
   }
