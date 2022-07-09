@@ -118,10 +118,12 @@ nav {
 }
 
 h3 {
+  font-weight: 400;
+  font-size: 18px;
   text-align: center;
   text-transform: uppercase;
   color: rgb(89, 89, 243);
-  margin-bottom: 12px;
+  margin-bottom: 24px;
 }
 
 .card {
@@ -138,26 +140,27 @@ h3 {
   height: 50%;
 }
 
-.card-details {
-  height: 50%;
-  padding: 20px;
-}
-
 img {
   width: 100%;
 }
 
-.card-container h4 {
-  text-transform: capitalize;
+.card-details {
+  /* height: 50%; */
+  padding: 20px;
 }
 
-p {
+.projects h4 {
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.projects p {
   margin-top: 8px;
-  margin-bottom: 12px;
-  font-size: 14px;
+  margin-bottom: 18px;
+  font-size: 16px;
 }
 .card-details a {
-  padding: 8px;
+  padding: 8px 12px;
   color: white;
   background-color: rgb(89, 89, 243);
   border-radius: 4px;

@@ -145,7 +145,8 @@ form {
 
 #send {
   border: none;
-  height: 32px;
+  /* height: 32px; */
+  padding: 8px 12px;
   width: 100%;
   background-color: rgb(89, 89, 243);
   color: white;
