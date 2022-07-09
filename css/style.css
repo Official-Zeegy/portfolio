@@ -199,7 +199,7 @@ section {
 
 @media (max-width: 650px) {
   .nav-items {
-    transform: translateY(-200px);
+    transform: translateX(700px);
     border-bottom: 1px solid rgb(89, 89, 243);
     border-left: 1px solid rgb(89, 89, 243);
     justify-content: flex-start;
@@ -208,11 +208,12 @@ section {
   }
 
   .active {
-    transform: translateY(0);
+    transform: translateX(0);
   }
 
   nav {
     flex-direction: column;
+    overflow: hidden;
   }
   .nav-items {
     width: 100%;
@@ -272,7 +273,7 @@ section {
   }
 }
 
-@media (min-width: 655px) {
+@media (min-width: 651px) {
   .hamburger {
     display: none;
   }
