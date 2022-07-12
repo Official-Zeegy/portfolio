@@ -1,74 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hyacinth Onyekwuo</title>
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <div class="container">
-      <div class="content">
-        <header>
-          <nav>
-            <div class="logo-icon">
-              <h2 class="logo"><a href="index.html">HYACINTH</a></h2>
-              <div class="hamburger">
-                <div class="ham"></div>
-                <div class="ham"></div>
-                <div class="ham"></div>
-              </div>
-            </div>
-            <div class="nav-items">
-              <ul>
-                <li class="nav-list"><a href="index.html">HOME</a></li>
-                <li class="nav-list">
-                  <a href="projects.html">PROJECTS</a>
-                </li>
-                <li class="nav-list"><a href="contact.html">CONTACT</a></li>
-              </ul>
-            </div>
-          </nav>
-        </header>
-        <section class="hero-section">
-          <div class="hero-writeup">
-            <p>Hello, I'm</p>
-            <h1>Hyacinth Onyekwuo</h1>
-            <p>
-              A professional frontend developer and product designer with a
-              creative mindset and the ability to multi-task.
-            </p>
-            <div class="button">
-              <a
-                href="https://drive.google.com/file/d/1mWFlrTE_babMhgkowUbHok9uIByviqo-/view?usp=sharing"
-                id="resume-button"
-                target="_blank"
-                >My Resume</a
-              >
-              <a href="contact.html" id="cme">Contact Me</a>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hyacinth Onyekwuo</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="content">
+      <header>
+        <nav>
+          <div class="logo-icon">
+            <h2 class="logo"><a href="index.html">HYACINTH</a></h2>
+            <div class="hamburger">
+              <div class="ham"></div>
+              <div class="ham"></div>
+              <div class="ham"></div>
             </div>
           </div>
-          <div class="hero-image">
-            <img
-              src="assets/undraw_developer_activity_re_39tg.svg"
-              alt=""
-              class="desktop-img"
-            />
-            <img src="assets/code-svgrepo-com.svg" alt="" class="mobile-img" />
+          <div class="nav-items">
+            <ul>
+              <li class="nav-list"><a href="index.html">HOME</a></li>
+              <li class="nav-list">
+                <a href="projects.html">PROJECTS</a>
+              </li>
+              <li class="nav-list"><a href="contact.html">CONTACT</a></li>
+            </ul>
           </div>
-        </section>
-      </div>
+        </nav>
+      </header>
+      <section class="hero-section">
+        <div class="hero-writeup">
+          <p>Hello, I'm</p>
+          <h1 class="my-name">Hyacinth Onyekwuo</h1>
+          <p class="my-statement">
+            A professional <span>Frontend Developer</span> and <span>Product Designer</span> with a
+            creative mindset and the ability to multi-task.
+          </p>
+          <div class="button">
+            <a href="https://drive.google.com/file/d/1mWFlrTE_babMhgkowUbHok9uIByviqo-/view?usp=sharing"
+              id="resume-button" target="_blank">My Resume</a>
+            <a href="contact.html" id="cme">Contact Me</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="assets/undraw_developer_activity_re_39tg.svg" alt="" class="desktop-img" />
+          <img src="assets/code-svgrepo-com.svg" alt="" class="mobile-img" />
+        </div>
+      </section>
+      <section class="about-me">
+        <div class="my-pic">
+          <img src="assets/zee-01.png" alt="my-pic" class="pic" width="100px" height="100px">
+          <p class="me">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas recusandae quod nostrum illum
+            perspiciatis pariatur omnis necessitatibus accusamus sint nihil. Veritatis eligendi placeat rerum. Veritatis
+            perferendis soluta quibusdam voluptas rem?</p>
+        </div>
+        <div class="skills">
+          <div class="skill-1">
+            <h4>Product Designer</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, nihil.</p>
+            <p>2021-2022</p>
+          </div>
+          <div class="skill-2">
+            <h4>Frontend Developer</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, nihil.</p>
+            <p>2021-2022</p>
+          </div>
+        </div>
+      </section>
     </div>
-    <script>
-      const showNav = document.querySelector(".hamburger");
-      const navDropdown = document.querySelector(".nav-items");
-      const bars = document.querySelector(".hamburger");
-      showNav.addEventListener("click", () => {
-        bars.classList.toggle("hamburger-active");
-        navDropdown.classList.toggle("active");
-        // console.log(5);
-      });
-    </script>
-  </body>
+  </div>
+  <script>
+    const showNav = document.querySelector(".hamburger");
+    const navDropdown = document.querySelector(".nav-items");
+    const bars = document.querySelector(".hamburger");
+    showNav.addEventListener("click", () => {
+      bars.classList.toggle("hamburger-active");
+      navDropdown.classList.toggle("active");
+      // console.log(5);
+    });
+  </script>
+</body>
+
 </html>
