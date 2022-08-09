@@ -1,82 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact</title>
-    <link rel="stylesheet" href="css/projects.css" />
-  </head>
-  <body>
-    <div class="container">
-      <div class="content">
-        <header>
-          <nav>
-            <div class="logo-icon">
-              <h2 class="logo"><a href="index.html">HYACINTH</a></h2>
-              <div class="hamburger">
-                <div class="ham"></div>
-                <div class="ham"></div>
-                <div class="ham"></div>
-              </div>
-            </div>
-            <div class="nav-items">
-              <ul>
-                <li class="nav-list"><a href="index.html">HOME</a></li>
-                <li class="nav-list">
-                  <a href="projects.html">PROJECTS</a>
-                </li>
-                <li class="nav-list">
-                  <a href="contact.html">CONTACT</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-        </header>
-        <h3>my projects</h3>
-        <section class="projects">
-          <div class="card" id="card1">
-            <div class="card-image">
-              <img src="assets/project1.png" alt="project1" />
-            </div>
-            <div class="card-details">
-              <h4>uzo's kitchen website</h4>
-              <p>UIUX Design/ Html & CSS</p>
-              <a href="#">View Project</a>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact</title>
+  <link rel="stylesheet" href="css/projects.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="content">
+      <header>
+        <nav>
+          <div class="logo-icon">
+            <h2 class="logo"><a href="index.html">HYACINTH</a></h2>
+            <div class="hamburger">
+              <div class="ham"></div>
+              <div class="ham"></div>
+              <div class="ham"></div>
             </div>
           </div>
-          <div class="card" id="card2">
-            <div class="card-image">
-              <img src="assets/project3.png" alt="project1" />
-            </div>
-            <div class="card-details">
-              <h4>fitness landing page</h4>
-              <p>UIUX Design</p>
-              <a href="#">View Project</a>
-            </div>
+          <div class="nav-items">
+            <ul>
+              <li class="nav-list"><a href="index.html">HOME</a></li>
+              <li class="nav-list">
+                <a href="projects.html">PROJECTS</a>
+              </li>
+              <li class="nav-list">
+                <a href="contact.html">CONTACT</a>
+              </li>
+            </ul>
           </div>
-          <div class="card" id="card3">
-            <div class="card-image">
-              <img src="assets/project2.png" alt="project1" />
-            </div>
-            <div class="card-details">
-              <h4>NRC landing page</h4>
-              <p>UIUX Design</p>
-              <a href="#">View Project</a>
-            </div>
+        </nav>
+      </header>
+      <h3>my projects</h3>
+      <section class="projects">
+        <div class="card" id="card1">
+          <div class="card-image">
+            <img src="assets/photo_2022-08-02_13-07-00.jpg" alt="project1" />
           </div>
-        </section>
-      </div>
+          <div class="card-details">
+            <h4>Mobile Bank App Design</h4>
+            <p>UI Design</p>
+            <a href="https://www.behance.net/gallery/149515751/Mobile-Bank-App" target="_blank">View Project</a>
+          </div>
+        </div>
+        <div class="card" id="card2">
+          <div class="card-image">
+            <img src="assets/Frame 86.png" alt="project1" />
+          </div>
+          <div class="card-details">
+            <h4>Swankee Modeing webpages design</h4>
+            <p>UI Design</p>
+            <a href="https://www.behance.net/gallery/149514375/Modeling-Agency-Onboarding-Landing-Page-Design"
+              target="_blank">View Project</a>
+          </div>
+        </div>
+        <!-- <div class="card" id="card3">
+          <div class="card-image">
+            <img src="assets/Frame 86.png" alt="project1" />
+          </div>
+          <div class="card-details">
+            <h4>fitness landing page</h4>
+            <p>UIUX Design</p>
+            <a href="#">View Project</a>
+          </div>
+        </div>
+        <div class="card" id="card4">
+          <div class="card-image">
+            <img src="assets/project2.png" alt="project1" />
+          </div>
+          <div class="card-details">
+            <h4>NRC landing page</h4>
+            <p>UIUX Design</p>
+            <a href="#">View Project</a>
+          </div>
+        </div> -->
+      </section>
     </div>
-    <script>
-      const showNav = document.querySelector(".hamburger");
-      const navDropdown = document.querySelector(".nav-items");
-      const bars = document.querySelector(".hamburger");
-      showNav.addEventListener("click", () => {
-        bars.classList.toggle("hamburger-active");
-        navDropdown.classList.toggle("active");
-        // console.log(5);
-      });
-    </script>
-  </body>
+  </div>
+  <script>
+    const showNav = document.querySelector(".hamburger");
+    const navDropdown = document.querySelector(".nav-items");
+    const bars = document.querySelector(".hamburger");
+    showNav.addEventListener("click", () => {
+      bars.classList.toggle("hamburger-active");
+      navDropdown.classList.toggle("active");
+      // console.log(5);
+    });
+  </script>
+</body>
+
 </html>
