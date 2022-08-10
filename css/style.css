@@ -290,20 +290,32 @@ nav {
   }
 
   .hero-writeup {
+    display: flex;
     width: 100%;
     height: 50%;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-between; */
+    /* border: 2px solid green; */
   }
 
   .my-name {
+    width: 100%;
+    text-align: center;
     font-size: 30px;
     line-height: 1.1;
     margin-bottom: 8px;
+  }
+
+  .hello {
+    margin-top: 8px;
   }
 
   .my-statement {
     width: 100%;
     font-size: 16px;
     margin-bottom: 8px;
+    text-align: center;
   }
 
   .hero-image .desktop-img {
